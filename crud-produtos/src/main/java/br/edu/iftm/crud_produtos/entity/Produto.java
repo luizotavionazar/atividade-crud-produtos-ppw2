@@ -24,9 +24,4 @@ public class Produto {
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
-    public Produto(String nome, Double preco, Categoria categoria) {
-        this.nome = nome;
-        this.preco = preco;
-        this.categoria = categoria;
-    }
 }
